@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="tr">
       <body className={inter.className}>
-        <div className="flex h-screen w-full bg-gray-200">
+        <div className="flex h-screen w-full">
           <Sidebar />
           <div className="flex flex-col w-full h-full ml-64 p-4">
             {children}
