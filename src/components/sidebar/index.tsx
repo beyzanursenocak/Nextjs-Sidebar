@@ -84,9 +84,9 @@ const items = [
 ]
 const Sidebar = () => {
   return (
-    <div className='fixed top-0 left-0 h-screen w-64 bg-white shadow-lg z-10 p-4'>
+    <div className='fixed top-0 left-0 h-screen w-64 bg-white shadow-lg z-10 p-4 overflow-y-auto scrollbar'>
       <div className='flex flex-col space-y-10'>
-        <img className='h-15 w-fit' src='/nextjs.jpg' alt='logo' />
+        <img className='h-15 w-fit' src='/mgs-software-logo.png' alt='logo' />
         <div className='flex flex-col space-y-1'>
           {items.map((item) => (
             <SidebarItem key={item.path} item={item} />
