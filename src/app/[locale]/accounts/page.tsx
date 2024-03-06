@@ -1,5 +1,5 @@
 import { Accounts, columns } from "./columns"
-import { DataTable } from "../../components/data-table"
+import { DataTable } from "../../../components/data-table"
 
 async function getData(): Promise<Accounts[]> {
   const res = await fetch(
